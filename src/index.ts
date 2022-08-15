@@ -1,3 +1,6 @@
 function prepend(numSpaces: number, inputString: string) {
-  // your code here
+  return " ".repeat(numSpaces) + inputString;
 }
+
+
+console.log(prepend(10,"hello"));
